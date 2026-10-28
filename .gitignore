@@ -1,4 +1,23 @@
-# gitignore template for LangChain products, e.g., LangGraph, LangSmith
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.env
+
+# IDE
+.vscode/
+
+# Logs
+*.log
+
+# Local model and vector database data
+chroma_db/
+faiss_index/
+
+# OS
+.DS_Store
+Thumbs.db# gitignore template for LangChain products, e.g., LangGraph, LangSmith
 # website: https://www.langchain.com/
 # website: https://www.langchain.com/langgraph
 
